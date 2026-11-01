@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#1b7a3d">
+    <title>Hors connexion - Boutik Plus</title>
+    <style>
+        :root { color-scheme: light; font-family: system-ui, sans-serif; color: #17251e; background: #f5f8f6; }
+        body { min-height: 100vh; display: grid; place-items: center; margin: 0; padding: 1.5rem; box-sizing: border-box; }
+        main { width: min(100%, 30rem); padding: 2rem; border: 1px solid #e5ebe7; border-radius: 1rem; background: #fff; box-shadow: 0 12px 32px rgb(27 54 39 / 7%); text-align: center; }
+        img { width: 5rem; height: 5rem; margin-bottom: 1rem; }
+        h1 { margin: 0 0 .75rem; color: #105b38; font-size: 1.6rem; }
+        p { color: #536159; line-height: 1.6; }
+        button { margin-top: .75rem; padding: .75rem 1rem; border: 0; border-radius: .5rem; background: #177548; color: #fff; font: inherit; font-weight: 600; cursor: pointer; }
+    </style>
+</head>
+<body>
+    <main>
+        <img src="/icons/icon-192.png" alt="">
+        <h1>Vous êtes hors connexion</h1>
+        <p>Reconnectez-vous à Internet pour accéder aux produits, aux factures et aux données actualisées de votre boutique.</p>
+        <p>Aucune donnée de gestion n’est enregistrée sur cet appareil par l’application.</p>
+        <button type="button" onclick="window.location.reload()">Réessayer</button>
+    </main>
+</body>
+</html>
